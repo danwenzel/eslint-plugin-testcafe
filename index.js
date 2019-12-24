@@ -6,7 +6,10 @@ module.exports = {
             globals: {
                 fixture: false,
                 test: false
-            }
+            },
+            env: {
+                node: true
+            },
         }
     }
 };
